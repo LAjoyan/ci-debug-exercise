@@ -9,5 +9,6 @@ En rad per fel. Skriv medan du minns hur du gjorde.
 | 3  |  `os` imported but unused  |GitHub| Läste felmeddelandet som sa att `os` imported but unused   | Jag tog bort den raden
 |4| unformatted: File would be reformatted | GitHub | Läste loggen som visade en diff på saknade mellanslag | Använde `Ctrl + Shift + F` i editorn för att auto-formatera koden |
 | 5 | ModuleNotFoundError: No module named 'numpy' | GitHub | Läste pytest-loggen som klagade på att numpy saknades | Körde `uv add numpy` i terminalen för att installera paketet |
+| 6 | AssertionError i test_moving_average_window_two | GitHub | Såg i koden att `moving_average` delade med `(window + 1)` istället för `window` | Ändrade `(window + 1)` till `window` på rad 11 i `features.py` |
 
 Fortsätt tabellen med fler rader vid behov.
