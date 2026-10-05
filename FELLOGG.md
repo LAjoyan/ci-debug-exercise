@@ -2,10 +2,10 @@
 
 En rad per fel. Skriv medan du minns hur du gjorde.
 
-| Nr | Vad stod i loggen?                              | Lokalt eller på GitHub? | Hur tog du reda på orsaken? | Hur löste du det? |
-|----|--------------------                             |-------------------------|-----------------------------|-------------------|
-| 1  | Invalid workflow file                           | GitHub                  | Kollade koden och såg att steget var felindenterat| Rättade indenteringen|
-| 2  |                                                 |                         |                             |                   |
+| Nr | Vad stod i loggen?                  | Lokalt eller på GitHub? | Hur tog du reda på orsaken? | Hur löste du det? |
+|----|--------------------                 |-------------------------|-----------------------------|-------------------|
+| 1  | Invalid workflow file               | GitHub                  | Kollade koden och såg att steget var felindenterat| Rättade indenteringen|
+| 2  | Unable to find lockfile at `uv.lock`| GitHub  |Läste felmeddelandet som sa att lock-filen saknades och föreslog `uv sync`  | Körde `uv sync` lokalt för att generera `uv.lock` och checkade in filen|
 | 3  |                                                 |                         |                             |                   |
 
 Fortsätt tabellen med fler rader vid behov.
