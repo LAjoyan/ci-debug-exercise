@@ -6,6 +6,6 @@ En rad per fel. Skriv medan du minns hur du gjorde.
 |----|--------------------                 |-------------------------|-----------------------------|-------------------|
 | 1  | Invalid workflow file               | GitHub                  | Kollade koden och såg att steget var felindenterat| Rättade indenteringen|
 | 2  | Unable to find lockfile at `uv.lock`| GitHub  |Läste felmeddelandet som sa att lock-filen saknades och föreslog `uv sync`  | Körde `uv sync` lokalt för att generera `uv.lock` och checkade in filen|
-| 3  |                                                 |                         |                             |                   |
+| 3  |  `os` imported but unused  |GitHub| Läste felmeddelandet som sa att `os` imported but unused   | Jag tog bort den raden
 
 Fortsätt tabellen med fler rader vid behov.
